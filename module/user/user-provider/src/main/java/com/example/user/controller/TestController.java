@@ -1,6 +1,6 @@
 package com.example.user.controller;
 
-import com.example.account.service.AccountService;
+import com.example.account.service.rpc.AccountService;
 import com.microservice.base.pojo.JsonResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

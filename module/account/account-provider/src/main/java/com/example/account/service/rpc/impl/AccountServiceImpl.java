@@ -1,6 +1,6 @@
 package com.example.account.service.rpc.impl;
 
-import com.example.account.service.AccountService;
+import com.example.account.service.rpc.AccountService;
 import com.microservice.base.pojo.JsonResult;
 import org.springframework.web.bind.annotation.RestController;
 

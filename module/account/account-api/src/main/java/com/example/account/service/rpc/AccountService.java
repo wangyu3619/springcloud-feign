@@ -1,4 +1,4 @@
-package com.example.account.service;
+package com.example.account.service.rpc;
 
 import com.microservice.base.pojo.JsonResult;
 import org.springframework.cloud.openfeign.FeignClient;
