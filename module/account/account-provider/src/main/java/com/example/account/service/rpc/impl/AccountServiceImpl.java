@@ -1,6 +1,7 @@
-package com.example.account.service.impl;
+package com.example.account.service.rpc.impl;
 
 import com.example.account.service.AccountService;
+import com.microservice.base.pojo.JsonResult;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AccountServiceImpl implements AccountService {
     @Override
-    public String hello(String name) {
-        return "hello " + name + " from account!";
+    public JsonResult hello(String name) {
+        return JsonResult.ok("hello " + name + " from account!");
     }
 }

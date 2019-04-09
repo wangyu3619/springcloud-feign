@@ -1,5 +1,6 @@
 package com.example.account.service;
 
+import com.microservice.base.pojo.JsonResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,5 +18,5 @@ public interface AccountService {
      * @return hello string
      */
     @GetMapping("/api/v1/user")
-    String hello(@RequestParam("name") String name);
+    JsonResult hello(@RequestParam("name") String name);
 }

@@ -14,6 +14,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(basePackages = {"com.example.account.service"})
 public class UserProviderApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserProviderApplication.class,args);
+        SpringApplication.run(UserProviderApplication.class, args);
     }
 }
